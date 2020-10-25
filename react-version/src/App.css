@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: .25rem;
+    margin: 5% 0;
+  }
+}
