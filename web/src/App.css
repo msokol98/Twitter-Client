@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: .25rem;
+    margin: 5% 0;
+  }
+}
+
